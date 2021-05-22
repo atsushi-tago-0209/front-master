@@ -1,9 +1,8 @@
 #container {
   padding: 1rem;
-  background-color: gray;
-  position: static;
+  position: relative;
+  background: gray;
 }
-
 div {
   font-weight: 600;
   padding: 0.5rem;
@@ -18,7 +17,6 @@ div {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 20;
 }
 .div-2 {
   background: tomato;
@@ -32,5 +30,8 @@ div {
 .div-4 {
   width: 80px;
   height: 80px;
+  top: 40px;
+  position: absolute;
   background-color: violet;
+  z-index: 100;
 }
